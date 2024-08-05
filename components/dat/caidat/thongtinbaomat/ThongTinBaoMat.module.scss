@@ -1,0 +1,89 @@
+.noidangnhap__content {
+    padding: 12px 48px 30px 33px;
+}
+
+.setting__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 12px 48px 30px 33px;
+}
+
+.noidangnhap__content__title,
+.noidangnhap__content__logout,
+.setting__content__ChangePassword__title,
+.setting__content__ChangePassword__logout,
+.setting__content__SaveLogin__title,
+.setting__content__GetWarning__title {
+    gap: 12px;
+    align-items: center;
+}
+
+.noidangnhap__content__logout,
+.setting__content__ChangePassword__logout {
+    font-size: 16px;
+    line-height: 19px;
+    color: #4c5bd4;
+}
+
+.noidangnhap__title,
+.setting__title {
+    min-height: 44px;
+    background: #e4e4e4;
+    padding-left: 55px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.name {
+    font-size: 18px;
+    line-height: 21px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.infoPosition {
+    margin-top: 7px;
+}
+
+.noidangnhap__content__title__name,
+.setting__content__ChangePassword__title__name,
+.setting__content__SaveLogin__title__name,
+.setting__content__GetWarning__title__name {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media (max-width: 320px) {
+    .companyAvatar {
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width: 280px) {
+    .companyAvatar {
+        margin-right: 4px !important;
+    }
+
+    .noidangnhap__content,
+    .setting__content {
+        padding: 12px 30px 30px 20px;
+    }
+
+    .noidangnhap__title,
+    .setting__title {
+        padding-left: 20px;
+    }
+}

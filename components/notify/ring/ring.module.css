@@ -1,0 +1,122 @@
+.container {
+    margin-top: 20px;
+    width: 360px;
+}
+
+.header {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 5px 15px;
+}
+
+.optionTitle {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.optionTitle a:first-child {
+    padding-bottom: 10px;
+}
+
+.optionTitle span {
+    font-size: 15px;
+    padding-left: 4px;
+}
+
+.body {
+    padding: 0 15px 15px 15px;
+}
+
+.option {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btnOption {
+    border-radius: 20px;
+    height: 34px;
+    background: #a4acef;
+    color: #4C5BD4;
+    font-weight: 500;
+}
+
+.btnOption:hover {
+    color: #4C5BD4 !important;
+    border: 1px solid #a4acef !important;
+    font-weight: bold;
+}
+
+.showMore {
+    display: flex;
+    justify-content: flex-end;
+    color: #4C5BD4;
+    font-size: 14px;
+}
+
+.item {
+    display: flex;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.iconItem {
+    border-radius: 50%;
+    background-color: #9999;
+}
+
+.optionTitle {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 426px) {
+    .container {
+        width: 400px;
+    }
+
+    .header {
+        border-radius: 0px
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        width: 360px;
+    }
+}
+
+@media (max-width: 330px) {
+    .container {
+        width: 320px;
+    }
+}
+
+@media (max-width: 290px) {
+    .container {
+        width: 280px;
+    }
+}

@@ -1,0 +1,58 @@
+.container {
+   width: 100%;
+}
+.upload {
+   width: 100%;
+}
+
+.introduce {
+   width: 100%;
+}
+.content {
+   display: flex;
+   gap: 10px;
+   align-items: baseline;
+   justify-content: space-between;
+}
+.content_top {
+   width: 60%;
+}
+.content_bot {
+   width: 38%;
+   float: left;
+   padding: 5px;
+}
+.content_bot_cl {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 100%;
+   position: sticky;
+}
+
+.pin {
+   width: 100%;
+}
+.name {
+   display: flex;
+   flex-direction: column;
+}
+.all_status {
+   display: flex;
+   flex-direction: column;
+}
+
+@media (max-width: 821px) {
+   .content_bot {
+      display: none;
+   }
+   .content_top {
+      width: 100%;
+      padding-top: 50px;
+   }
+}
+@media (max-width: 426px) {
+   .post {
+      padding: 12px;
+   }
+}

@@ -1,0 +1,20 @@
+.modalThongBao__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.modalThongBao__item__title {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 4px 0px;
+}
+
+.modalThongBao__title {
+    font-size: 16px;
+    color: #474747;
+}

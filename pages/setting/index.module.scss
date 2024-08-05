@@ -1,0 +1,18 @@
+.settingContainer {
+    border-radius: 6px;
+    background: #fff;
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .containerSidebar {
+        width: 102px;
+    }
+}
+
+@media (max-width: 715px) {
+    .containerSidebar {
+        display: none;
+    }
+}

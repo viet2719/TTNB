@@ -1,0 +1,45 @@
+.text_set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn{
+    button{
+        padding:  10px;
+        background-color: #4c5bd4;
+        border: none;
+        border-radius: 20px;
+        color: #fff;
+    }
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.OnOff{
+    display: flex;
+    justify-content: space-between;
+    .btn{
+        background-color: #4c5bd4;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+    }
+}
+.name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #474747;
+    font-size: 16px;
+    font-weight: bold;
+    img{
+        border-radius: 50%;
+    }
+}
+.setting{
+    cursor: pointer;
+    color: #4c5bd4;
+    font-weight: bold;
+}

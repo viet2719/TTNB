@@ -1,0 +1,15 @@
+.scroll-behavior {
+    scroll-behavior: auto;
+
+}
+
+.overflow-auto {
+    overflow: auto !important;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.scroll-y {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

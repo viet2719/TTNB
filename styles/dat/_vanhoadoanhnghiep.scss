@@ -1,0 +1,225 @@
+.VHDNcontentRight {
+    .ant-menu-item {
+        padding: 18px 10%;
+        display: flex;
+        align-items: center;
+        background: #4c5bd4;
+        color: #fff;
+        width: 360px;
+        height: 60px;
+        margin: 0;
+        border-radius: 0 !important;
+        gap: 10px;
+
+        &:hover {
+            background-color: #2e3994 !important;
+            color: #fff !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .VHDNcontentRight {
+        .ant-menu-item {
+            width: 270px;
+            padding: 18px 8%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .VHDNcontentRight {
+        .ant-menu {
+            width: 250px;
+        }
+
+        .ant-menu-item {
+            width: 250px;
+            padding: 18px 8%;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .VHDNcontentRight {
+        .ant-menu {
+            width: 90%;
+            margin-left: -26px;
+        }
+
+        .ant-menu-item {
+            width: 100%;
+            padding: 12px 8%;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .VHDNcontentRight {
+        .ant-menu {
+            width: 80%;
+            margin-left: 26px;
+        }
+
+        .ant-menu-item {
+            width: 100%;
+            padding: 12px 8%;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .VHDNcontentRight {
+        .ant-menu {
+            width: 65%;
+            margin-left: 66px;
+        }
+
+        .ant-menu-item {
+            padding: 0 8%;
+        }
+    }
+}
+
+@media (max-width: 280px) {
+    .VHDNcontentRight {
+        .ant-menu {
+            width: 60%;
+            margin-left: 76px;
+        }
+    }
+}
+
+// bth
+.edit-ntlv-modal .ant-modal-content,
+.add-ntlv-modal .ant-modal-content,
+.edit-group-modal .ant-modal-content,
+.edit-description-modal .ant-modal-content,
+.edit-vision-modal .ant-modal-content,
+.edit-mission-modal .ant-modal-content,
+.detail-email-modal .ant-modal-content,
+.UploadQuestionModal .ant-modal-content {
+    padding: 0px;
+    width: 100%;
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 20px 5px 20px;
+    }
+}
+
+//center
+.delete-ntlv-modal .ant-modal-content,
+.delete-email-modal .ant-modal-content {
+    padding: 0px;
+    width: 100%;
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 45px 5px 45px;
+    }
+}
+
+//ModalEditDescription
+
+.edit-description-modal__content .ant-form {
+    .ant-form-item {
+        .ant-row {
+            display: block;
+
+            .ant-form-item-label {
+                text-align: left;
+
+                label {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+.edit-TTNB-Post-modal__content .ant-form {
+    .ant-form-item {
+        margin-bottom: 16px;
+
+        .ant-row {
+            display: block;
+
+            .ant-form-item-label {
+                text-align: left;
+
+                label {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+//Collapse
+
+.LCNTTRightContainer__list .ant-collapse {
+    border: none;
+    border-radius: 0;
+    font-weight: 500;
+
+    .ant-collapse-item {
+        padding: 4px;
+        background-color: #fff;
+
+        .ant-collapse-expand-icon {
+            padding-top: 2px;
+        }
+    }
+}
+
+.uploadImg .ant-upload {
+    width: 100%;
+}

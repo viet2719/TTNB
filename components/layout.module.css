@@ -1,0 +1,20 @@
+.header>* {
+   position: fixed;
+   width: 100%;
+   z-index: 10;
+}
+
+
+.navbar {
+   position: relative;
+   top: 78px;
+   width: 20%;
+}
+
+.nav {
+   position: fixed;
+   top: 78px;
+   left: 0;
+   z-index: 999;
+   overflow-y: auto;
+}

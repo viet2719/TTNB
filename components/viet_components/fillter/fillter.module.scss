@@ -1,0 +1,87 @@
+
+.filter_post_btn{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #474747;
+    padding: 8px 10px;
+    border: none;
+    background: #F7F8FC;
+    border-radius: 5px;
+    gap:10px;
+    cursor: pointer;
+}
+
+.tuto{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+    span{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #474747;
+    }
+}
+
+.components{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    span{
+        font-size: 16px;
+        // padding-right: 16px;
+        white-space: nowrap;
+        // min-width: 170px;
+    }
+    .datetime{
+        display: flex;
+        gap:5px;
+    }
+}
+.btn_btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    .btn{
+    width:80px;
+    line-height: 26px;
+   padding: 5px;
+    border-radius: 5px;
+    }
+    .del{
+        border: 1px solid #4c5bd4;
+        color:#4c5bd4;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .ok{
+        border: 1px solid #4c5bd4;
+       background: #4c5bd4;
+       color: #fff;
+        font-size: 16px;
+        font-weight: 600; 
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:475px) {
+   .components{
+    display: flex;
+    flex-direction: column;
+   }
+    .datetime{
+    display: flex;
+    flex-direction: column;
+   }
+}
+@media screen and (max-width:320px) {
+    .filter_post_btn{
+        font-weight: 500;
+        font-size: 15px;
+        gap: 5px;
+    }
+}

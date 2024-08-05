@@ -1,0 +1,37 @@
+.contentPostShare {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.contentPostImg {
+    width: 60% !important;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.time {
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    color: #534747;
+    gap: 8px;
+    margin: 4px 0px 10px 10px;
+}
+
+.contentPostTitle {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

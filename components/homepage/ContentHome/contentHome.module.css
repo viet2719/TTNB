@@ -1,0 +1,143 @@
+.container {
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+.content__story {
+    border-radius: 8px;
+}
+
+.content__story {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 22px;
+    border-radius: 8px;
+}
+
+.add__story {
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnAdd__story {
+    width: 156px;
+    height: 65px;
+    background-color: white;
+}
+
+.imageAdd__story {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btnAdd__story {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageAdd {
+    position: relative;
+    bottom: 50%;
+}
+
+.slide__story {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imageNext {
+    position: relative;
+    top: 160%;
+}
+
+.slide__story {
+    display: flex;
+    overflow: hidden;
+}
+
+.story {
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+    position: relative;
+    top: 160%;
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 0 4px;
+    z-index: 1;
+    border: 3px solid #4C5BD4;
+    position: relative;
+    bottom: 208px;
+    left: 8px;
+}
+
+.info {
+    display: flex;
+}
+
+.username {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+    right: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 55px;
+}
+
+.image__story {
+    max-width: 150px !important;
+    height: 220px !important;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        padding: 0;
+    }
+
+    .username {
+        width: 100px;
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        padding: 0;
+    }
+
+    .content__story {
+        margin-bottom: 0px;
+    }
+
+    .add__story,
+    .btnAdd__story {
+        width: 120px;
+    }
+
+    .imageAdd__story {
+        width: 120px !important;
+        height: 156px !important;
+        object-fit: cover;
+    }
+}

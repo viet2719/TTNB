@@ -1,0 +1,224 @@
+.thutuceoContainer {
+    box-shadow: 0 1.72314px 4.30784px 2.58471px rgba(0, 0, 0, .1);
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.thutuceoContainerTitle {
+    font-weight: 700;
+    color: #474747;
+    padding: 22px 3.5%;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+}
+
+.thutuceoContainerContent {
+    padding: 15px 3.5%;
+}
+
+.thutuceoContainerContentFormButton {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 19px 0 39px;
+}
+
+.thutuceoContainerContentFormTitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+
+.thutuceoContainerContentRightContentItemUser {
+    font-size: 14px;
+    max-width: 200px;
+
+}
+
+.thutuceoContainerContentFormButtonSubmit {
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    height: 36px;
+    width: 303px;
+    background: #4c5bd4;
+    color: #fff;
+    border: 1px solid #4c5bd4;
+}
+
+.thutuceoContainerContentRight {
+    background: #fff;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    margin-top: 21px;
+}
+
+.thutuceoContainerContentRightHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color: #474747;
+    padding: 16px 26px;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+}
+
+.thutuceoContainerContentRightContent {
+    padding: 10px 3.5% 16px;
+}
+
+.thutuceoContainerContentRightContentItem {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+
+    .list_gr {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+}
+
+.thutuceoContainerContentRightContentItemTitle {
+    cursor: pointer;
+    font-weight: 500;
+    color: #4c5bd4;
+    padding: 7px 0;
+}
+
+.thutuceoContainerContentRightContentItemUser {
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.thutuceoContainerContentRightContentItemTime {
+    color: rgba(71, 71, 71, .75);
+}
+
+.searchPost {
+    margin: 20px 0;
+
+    .timkiembaiviet {
+        border-radius: 50px !important;
+        padding: 10px 25px;
+    }
+}
+
+.optionItem {
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    padding: 4px 30px 4px 4px;
+}
+
+@media (max-width: 320px) {
+    .thutuceoContainerContentFormButtonSubmit {
+        max-width: 200px;
+    }
+}
+
+// containerRight
+
+.containerRight {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.SKSapToi,
+.BaiVietDanhDau,
+.ThongBaoMoi {
+    background: #fff;
+    box-shadow: 0 2px 5px 3px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    margin-top: 22.35px;
+}
+
+.SKSapToi_header,
+.BaiVietDanhDau_header,
+.ThongBaoMoi_header {
+    padding: 17px 7%;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+}
+
+.SKSapToi_body,
+.BaiVietDanhDau_body_container,
+.ThongBaoMoi_body {
+    padding: 17px 7%;
+}
+
+.SKSapToi_body_tren {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SKSapToi_body_duoi {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #4c5bd4;
+}
+
+.BaiVietDanhDau_body {
+    gap: 12px;
+}
+
+.BaiVietDanhDau_body_avatar {
+    border-radius: 50%;
+}
+
+.info {
+    color: #474747;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.namePost {
+    margin-top: 12px;
+}
+
+.ThongBaoMoi_header_add {
+    color: #4c5bd4;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ThongBaoMoi_body_tren {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+}
+
+.ThongBaoMoi_body_time {
+    color: rgba(71, 71, 71, .75);
+}
+
+.ThongBaoMoi_body_duoi {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+}

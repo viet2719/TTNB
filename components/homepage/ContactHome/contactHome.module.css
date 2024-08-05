@@ -1,0 +1,90 @@
+.container {
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    position: fixed;
+    width: 24%;
+}
+
+.containerGroup {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.containerContact {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.menuLink {
+    display: flex;
+    margin-top: 20px;
+}
+
+.avatarContainer {
+    display: flex;
+}
+
+.userOnline {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00ff00;
+    border: 2px solid #fff;
+    position: relative;
+    top: 30px;
+    right: 14px;
+}
+
+.userOffline {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    border: 2px solid #fff;
+    position: relative;
+    top: 30px;
+    right: 14px;
+}
+
+.nameContact {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    align-self: center;
+}
+
+.contact,
+.group {
+    overflow: hidden auto;
+    max-height: 280px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.contact::-webkit-scrollbar,
+.group::-webkit-scrollbar {
+    display: none;
+}
+
+.nameGroup {
+    padding: 0 10px;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 500;
+}

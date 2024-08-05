@@ -1,0 +1,167 @@
+
+.center_intro{
+    width: 496px;
+    /* box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); */
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    
+}
+.edit_story{
+    text-align: center;
+    padding: 10px 0;
+    background: #F2F2F2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+.kytu {display: flex;justify-content: flex-end;
+margin-right: 44px;}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 44px 20px;
+    gap: 20px;
+}
+.btn>button{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px ;
+    font-size:16px ;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn_huy {
+    color: #474747;
+}
+.btn_ok {
+    color: #ffffff;
+    background: #4c5bd4;
+}
+.story{
+    width: 100%;
+    padding: 10px;
+    border: none;
+
+}
+.story:focus{
+    outline: none;
+}
+.sp_story{
+    line-height: 24px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.follow{
+    padding: 10px 0;
+   
+}
+.follow .follow_list{
+    display: flex;
+    align-items: center;
+}
+.follow_list >img {
+    margin-right: 10px;
+}
+.st_sothich{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.sothich{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #474747;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+
+}
+/* fillter post */
+.fillter{
+    margin-top: 20px;
+    display: flex;
+    background:white;
+    padding: 20px;
+    font-size: 16px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.filter_post_title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #474747;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.btn_post{
+    display: flex;
+    gap:20px;
+    
+    
+}
+.btn_post .filter_post_btn{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #474747;
+    padding: 8px 10px;
+    border: none;
+    background: #F7F8FC;
+    border-radius: 5px;
+    gap:10px;
+}
+.story_modal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: #474747;
+}
+.story_modal >span {
+    color: #4c5bd4;
+}
+@media screen and (max-width:1200px) {
+    .title{
+        display: none;
+    }
+    .Divider{
+        display: none;
+    }
+    .center_intro{
+        width: 100%;
+    }
+    .sto{
+        display: none;
+    }
+    .st{
+        display: none;
+    }
+    .filter_post_title{
+        display: none;
+    }
+}
+@media screen and (max-width:1024.1px) {
+    .btn_post{
+        display: flex;
+        gap:20px;
+        justify-content: space-between;
+        width: 100%;
+        
+    }       
+    
+}

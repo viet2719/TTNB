@@ -1,0 +1,171 @@
+@media (max-width:1920px) {
+    .background {
+        background: url('/img/hd_img_hd.png')no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .footer {
+        padding-top: 30px;
+    }
+    .background {
+        display: flex;
+        padding: 40px;
+        align-items: center;
+        margin-top: -20px;
+        justify-content: space-between;
+        .background_left {
+            display: flex;
+            flex-direction: column;
+            gap: 34px;
+            .tutorial {
+                .tutorial_1,
+                .tutorial_2 {
+                    font-size: 36px;
+                    color: #ffffff;
+                    font-weight: 600;
+                }
+            }
+            .img_video {
+                display: flex;
+                justify-content: space-between;
+                .img_hd {
+                    display: flex;
+                    gap: 34px;
+                    .img_download {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        padding: 34px 0;
+                    }
+                }
+            }
+        }
+
+    }
+    .title {
+        h4 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+            color: #4C5BD4;
+        }
+    }
+    .article {
+        margin-top: 40px;
+        .o_tutorial {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            .data {
+                display: flex;
+                border-radius: 8px;
+                width: 30%;
+                height: 344px;
+                padding: 30px;
+                flex-direction: column;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 5px 3px rgb(0 0 0 / 10%);
+                .img {
+                    display: flex;
+                    justify-content: center;
+                }
+                .data_title {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 20px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #474747;
+                    text-align: center;
+                }
+                .data_content {
+                    padding: 30px 0;
+                    height: 180px;
+                    font-size: 16px;
+                }
+            }
+            .btn_tutorial {
+                display: flex;
+                justify-content: center;
+                button {
+                    border: none;
+                    background: #4C5BD4;
+                    border-radius: 50px;
+                    padding: 0 30px;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 35px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+@media (max-width:975.9px) {
+    .article {
+        .o_tutorial {
+            .data {
+                width: 100%;
+                .data_content {
+                    font-size: 16px;
+                }
+            }
+            .btn_tutorial {
+                button {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .background {
+        display: flex;
+        padding: 40px;
+        align-items: center;
+        margin-top: -20px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .tutorial_1,
+    .tutorial_2{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:720.9px) {
+    .tutorial_1,
+    .tutorial_2{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .qr{
+        display: none;
+    }
+    .img_hd{
+        padding-top:0 ;
+    }
+    .img_download{
+        display: flex;
+        flex-direction: row !important;
+        transform: scale(0.7);
+        padding-top: 0px;
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+    }
+    .img_video{
+        display: flex;
+        justify-content: center !important;
+    }
+    
+}

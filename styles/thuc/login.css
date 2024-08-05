@@ -1,0 +1,33 @@
+.thuc_popover.ant-popover .ant-popover-inner {
+   background-color: unset !important;
+   box-shadow: unset !important;
+   padding: 0px !important;
+}
+.thuc_unf.ant-modal .ant-modal-header,
+.thuc_block.ant-modal .ant-modal-header,
+.thuc_modal.ant-modal .ant-modal-header {
+   background: #4c5bd4;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+   border-radius: 8px 8px 0px 0px;
+   height: 47px;
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+}
+.thuc_unf.ant-modal .ant-modal-close-x,
+.thuc_unf.ant-modal .ant-modal-title,
+.thuc_block.ant-modal .ant-modal-close-x,
+.thuc_block.ant-modal .ant-modal-title,
+.thuc_modal.ant-modal .ant-modal-close-x,
+.thuc_modal.ant-modal .ant-modal-title {
+   color: #fff;
+}
+.thuc_unf.ant-modal .ant-modal-content,
+.thuc_block.ant-modal .ant-modal-content,
+.thuc_modal.ant-modal .ant-modal-content {
+   padding: unset !important;
+}
+img.ant-image-img.allFriend_drop_img__PlrRR {
+   width: 25px !important;
+   height: 25px;
+}

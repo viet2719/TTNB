@@ -1,0 +1,106 @@
+.modal_container {
+   padding: 20px;
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+   width: 100%;
+}
+.btn {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+.madal_input {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.modal_select {
+   display: flex;
+   gap: 15px;
+   align-items: center;
+}
+.madal_content {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   border-bottom: 1px dotted;
+   padding-bottom: 20px;
+}
+.madal_content2 {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   padding-top: 5px;
+}
+.input {
+   width: 17px;
+   height: 17px;
+}
+.menu_drop {
+   display: flex;
+   gap: 25px;
+   align-items: center;
+}
+.menu_flex {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+.textarea {
+   padding: 10px;
+   outline: none;
+}
+.span {
+   font-weight: 700;
+}
+.content {
+   padding: 15px;
+   background: #f2f2f2;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.content_flex {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+.content_fl {
+   display: flex;
+   flex-direction: column;
+}
+.content_p {
+   font-weight: 400;
+   font-size: 12px;
+}
+.none {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.none_flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.none_fl {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+.none_img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: #acacac;
+}
+.none_p {
+   color: #acacac;
+}
+.p_item {
+   color: #afabab;
+   font-size: 13px;
+}

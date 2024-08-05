@@ -1,0 +1,56 @@
+.ModalShareOnPage__search_input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc !important;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.ModalShareOnPage__recent_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.ModalShareOnPage__recent {
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.ModalShareOnPage__recent__item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px dashed #666666;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+
+.ModalShareOnPage__recent__item:last-child {
+    border-bottom: none;
+}
+
+.recent__item_Info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.recent__item_Info__name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 250px;
+}
+
+.recent__item_Avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}

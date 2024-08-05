@@ -1,0 +1,98 @@
+.setting_per{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 0 12px;
+    border-radius: 5px;
+    border: none;
+    color: #474747;
+    font-size: 15px;
+   background-color: #d2d2d2;
+   width: 245px;
+   cursor: pointer;
+   img{
+    margin-right: 10px;
+}}
+.anhdaidien {
+    padding: 10px;
+    border-bottom: 1px solid #a9a9a9;
+    .anhdaidien_lable{
+        display: flex;justify-content: space-between;
+        .anhdaidien_title{
+            font-size: 16px;
+            color: #474747;
+            font-weight: 500;
+        }
+        .anhdaidien_edit{
+            font-size: 16px;
+            color: #4c5bd4;
+            font-weight: 500;
+            cursor: pointer;
+        }
+       
+    }
+    .anhdaidien_img {
+        display: flex;
+        justify-content: center;
+        img{
+            border-radius: 50%;
+        }
+        
+    }
+}
+.anhbia{
+    padding: 10px;
+    border-bottom: 1px solid #a9a9a9;
+    .anhbia_lable{
+        display: flex;
+        justify-content: space-between;
+        .anhbia_title{
+            color: #474747;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .anhbia_edit{
+            font-size: 16px;
+            color: #4c5bd4;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+    .anhbia_img {
+        display: flex;
+        justify-content: center;
+        img{
+            margin: 10px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+    }
+
+}
+.edit_story{
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px 0;
+}
+.edit_intro{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: #474747;
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px 0;
+    p{
+        color: #4c5bd4;
+    }
+}
+@media  (max-width:545px) {
+    .setting_per{
+        padding: 10px 15px;
+        width: calc(100% - 55px);
+        display: flex;
+        justify-content: center;
+        margin-left:55px ;
+        
+    }
+}

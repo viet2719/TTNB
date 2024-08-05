@@ -1,0 +1,43 @@
+.modalAddDocumentContentButton {
+    padding-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modalAddDocumentContentButtonCancel {
+    color: #4c5bd4;
+    background: #fff;
+    border: 1px solid #4c5bd4;
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 65px !important;
+}
+
+.modalAddDocumentContentButtonCreate {
+    background: #4c5bd4;
+    color: #fff;
+    border: 1px solid #4c5bd4;
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 65px !important;
+}
+
+.modalAddDocumentContentItemTitle {
+    margin: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.modalAddDocumentContentItemTitleTextBold {
+    font-weight: 700;
+    font-size: 16px;
+}

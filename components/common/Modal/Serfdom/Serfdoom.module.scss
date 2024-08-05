@@ -1,0 +1,63 @@
+.modal__serfdom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.serfdom_content{
+    padding: 1px 20px;
+    .thongtin{
+        margin: 10px 0;
+        span{
+            color: #474747;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        p{
+            color: #666666;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+    
+}
+.congkhai{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 15px;
+    .congkhai_img{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+}
+.friend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 15px;
+    .friend_img{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .except{
+        display: block;
+        .except_friend{
+            color: #999999;
+            font-size: 13px;
+            font-weight: 400;
+        }
+    }
+}
+.input{
+    width: 22px;
+    height: 22px;
+}

@@ -1,0 +1,28 @@
+.itemDelete {
+    margin-bottom: 20px;
+    padding: 20px;
+
+    &:hover {
+        background-color: #f5f5f5;
+    }
+}
+
+.listItem {
+    list-style: none;
+}
+
+.time {
+    gap: 10px;
+}
+
+.timeDeleteContainer {
+    gap: 30px;
+}
+
+.timeDelete {
+    gap: 10px;
+}
+
+.selectedItem {
+    background-color: red !important;
+}

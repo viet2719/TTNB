@@ -1,0 +1,304 @@
+.sidebar {
+    position: fixed;
+}
+
+.subSidebar {
+    width: 25%;
+}
+
+.QTTTContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.QTTTContentHeader {
+    gap: 40px;
+    width: 100%;
+}
+
+.QTTTSearchInput {
+    margin-top: 30px;
+    width: 55%;
+}
+
+.contentRightContainer {
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.searchInput {
+    border: 1px solid #d9d9d9;
+    border-radius: 16px;
+    padding: 10px 20px;
+    width: 100%;
+
+    &hover {
+        border: 1px solid #d9d9d9 !important;
+        border-radius: 16px !important;
+    }
+}
+
+.selectedOption {
+    width: 100%;
+    padding: 18px 25%;
+    display: flex;
+    align-items: center;
+    background: #4c5bd4;
+    border: 1px solid #4c5bd4;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    color: #fff;
+    gap: 20px;
+}
+
+.QTTTcontentRight {
+    position: fixed;
+    width: 430px;
+}
+
+.themtailieuButton {
+    padding: 18px 25%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #4c5bd4;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    color: #fff;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.themtailieuButtonText {
+    color: #4c5bd4;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.QTTTButtonAdd {
+    padding-right: 10%;
+}
+
+.themtailieuButton {
+    height: 48px !important;
+    min-width: 22% !important;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px !important;
+}
+
+.QTTTContentBodyListItem {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    margin-right: 14px;
+}
+
+.QTTTContentBodyItem {
+    width: calc(100% / 4 - 20px);
+    box-shadow: 0 2px 5px 3px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+}
+
+.QTTTContentBodyItemImg {
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.QTTTContentBodyItemInfo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.QTTTBoldText {
+    color: #474747;
+    font-weight: 500;
+    max-width: 240px;
+    word-break: break-word;
+}
+
+.QTTTDowloadFile {
+    color: #4C5BD4;
+    word-break: break-word;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.popoverItem {
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ccc;
+        border-radius: 4px;
+    }
+}
+
+.popoverListItem {
+    border-radius: 6px;
+}
+
+.popoverItemText {
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    font-weight: 500;
+}
+
+.modalAddDocumentContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modalAddDocumentContentItem {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.modalAddDocumentContentButton {
+    padding-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modalAddDocumentContentButtonCancel {
+    color: #4c5bd4;
+    background: #fff;
+    border: 1px solid #4c5bd4;
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 80px !important;
+}
+
+.modalAddDocumentContentButtonCreate {
+    background: #4c5bd4;
+    color: #fff;
+    border: 1px solid #4c5bd4;
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 80px !important;
+}
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 90px;
+    }
+
+    .subSidebar {
+        width: 120px;
+    }
+
+    .QTTTcontentRight {
+        width: 340px;
+    }
+
+    .selectedOption {
+        padding: 12px 22%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .QTTTContentBodyItem {
+        width: calc(33% - 20px);
+    }
+
+    .QTTTcontentRight {
+        width: 240px;
+    }
+
+    .selectedOption {
+        padding: 12px 22%;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .sidebar,
+    .subSidebar {
+        display: none;
+    }
+
+    .QTTTContent {
+        padding: 0 20px;
+    }
+
+    .QTTTContentHeader {
+        flex-direction: column-reverse;
+    }
+
+    .QTTTSearchInput {
+        width: 50%;
+    }
+
+    .QTTTButtonAdd {
+        padding-right: 0;
+        position: relative;
+        top: -76px;
+    }
+
+    .QTTTContentBody {
+        position: relative;
+        top: -76px;
+    }
+
+    .QTTTContentBodyListItem {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .QTTTContentBodyItem {
+        width: 74%;
+    }
+
+    .QTTTcontentRight {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .themtailieuButton {
+        padding: 4px 20%;
+    }
+
+    .themtailieuButtonText {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .QTTTButtonAdd {
+        left: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    .QTTTSearchInput {
+        width: 100%;
+    }
+
+    .QTTTButtonAdd {
+        top: -16px;
+    }
+
+    .QTTTContentBody {
+        top: -16px;
+    }
+
+    .QTTTButtonAdd {
+        width: 100%;
+    }
+}

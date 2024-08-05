@@ -1,0 +1,79 @@
+.post__footer__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.post__footer__left__text {
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.popupContainer {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+    padding: 4px 8px;
+    position: relative;
+    bottom: 4px;
+    left: -25px;
+    min-width: 125%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.popover {
+    display: flex;
+    align-items: center;
+}
+
+.imgHoverEffect {
+    transition: transform 0.2s ease-in-out;
+}
+
+.imgHoverEffect:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* -----------color text------------ */
+
+.likeColor {
+    color: #3b5998;
+}
+
+.loveColor {
+    color: #ed516f;
+}
+
+.wowColor {
+    color: #ffda6a;
+}
+
+.TTColor {
+    color: #f7b928;
+}
+
+.angryColor {
+    color: #f7b928;
+}
+
+.sadColor {
+    color: #f7b928;
+}
+
+.hahaColor {
+    color: #f7b928;
+}
+
+/* -----------end color text------------ */
+
+@media (max-width: 376px) {
+    .post__footer__left__text {
+        display: none;
+    }
+}

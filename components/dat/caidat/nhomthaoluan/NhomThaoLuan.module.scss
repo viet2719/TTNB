@@ -1,0 +1,102 @@
+.header {
+    padding: 22px 26px;
+}
+
+.headerSearch {
+    width: 40%;
+}
+
+.headerSearchInput {
+    background: #fff;
+    border: 1px solid #474747;
+    border-radius: 50px;
+    padding: 10px 25px 10px 15px;
+    font-size: 16px;
+    line-height: 19px;
+    outline: 0;
+}
+
+.headerSearchInput:hover {
+    border: 1px solid #474747 !important;
+}
+
+.headerAddGroupButton {
+    background-color: #fff;
+    border: 1px solid #4c5bd4;
+    border-radius: 50px !important;
+}
+
+.headerAddGroupButtonText {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4c5bd4;
+    margin-left: 4px;
+}
+
+.modalAddGroupTitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.modalAddGroupButtons {
+    margin-bottom: 30px;
+}
+
+.modalAddGroupButtonCancel {
+    background-color: #ffffff;
+    border: 1px solid #4c5bd4;
+    border-radius: 50px !important;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    color: #4c5bd4;
+    margin-right: 10px;
+}
+
+.modalAddGroupButtonCreate {
+    background-color: #4c5bd4;
+    border-radius: 50px !important;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+@media (max-width: 426px) {
+    .header {
+        width: 70%;
+    }
+}
+
+@media (max-width: 376px) {
+    .header {
+        flex-direction: column;
+        width: 61%;
+    }
+
+    .headerSearch {
+        width: 75%;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        width: 54%;
+    }
+
+    .headerSearch {
+        width: 88%;
+    }
+}
+
+@media (max-width: 280px) {
+    .header {
+        width: 100%;
+    }
+}

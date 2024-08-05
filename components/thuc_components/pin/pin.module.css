@@ -1,0 +1,50 @@
+.pin {
+   width: 100%;
+   margin-top: 20px;
+   background: #fff;
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+   border-radius: 10px;
+   padding: 15px;
+}
+.pin_container {
+   width: 100%;
+   overflow-x: scroll;
+}
+.all_pin {
+   width: 2000px;
+   padding: 10px;
+   display: flex;
+   gap: 20px;
+}
+.pin_if {
+   width: 360px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   background: #fff;
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+   border-radius: 10px;
+}
+.content {
+   display: flex;
+   gap: 10px;
+   align-items: baseline;
+   justify-content: space-between;
+}
+.introduce_flex {
+   display: flex;
+   gap: 10px;
+}
+.flex {
+   display: flex;
+   gap: 10px;
+}
+@media (max-width: 550px) {
+   .pin_if {
+      width: 295px;
+   }
+   .flex {
+      font-size: 12px;
+   }
+}

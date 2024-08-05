@@ -1,0 +1,235 @@
+.container {
+   width: 100%;
+}
+.left {
+   background: white;
+   box-shadow: 2px 2px 12px 0px #00000026;
+   float: left;
+   position: fixed;
+   height: 100vh;
+   width: 20%;
+
+   top: 12%;
+}
+.left_all {
+   display: flex;
+   flex-direction: column;
+}
+.friend_p {
+   text-align: center;
+   padding-top: 30px;
+}
+.left_content {
+   cursor: pointer;
+   color: #474747;
+   font-weight: 500;
+   height: 72px;
+   border-radius: 5px;
+   padding-left: 11px;
+   display: flex;
+   gap: 15px;
+   padding-top: 10px;
+}
+.left_content:nth-child(3) {
+   background-color: #dddddd;
+}
+.left_content:hover {
+   background-color: #dddddd;
+}
+.left_icon4,
+.left_icon2,
+.left_icon {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #dddddd;
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.left_icon3 {
+   background-color: #4c5bd4;
+   color: #fff;
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+.left_p4,
+.left_p2,
+.left_p {
+   color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+}
+.left_p3 {
+   color: #4c5bd4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+}
+.right {
+   width: 80%;
+   float: right;
+   background-color: #f7f8fc;
+   margin-right: -2.5%;
+   padding-top: 30px;
+}
+
+.search {
+   width: 100%;
+}
+
+.inputSearch {
+   border-radius: 25px;
+   height: 50px;
+   width: 50%;
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.add_friend {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+}
+.add_btn {
+   background: unset;
+   border: unset;
+   margin-right: 90px;
+   color: blue;
+   cursor: pointer;
+}
+.add_p {
+   font-weight: 700;
+   color: #474747;
+   font-size: 18px;
+}
+.all_card {
+   width: 100%;
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+   margin-top: 20px;
+   border-bottom: 1px solid;
+   padding-bottom: 20px;
+}
+.card {
+}
+.name {
+   color: #474747;
+   font-weight: 500;
+   padding-left: 15px;
+   padding-top: 10px;
+}
+.friend {
+   color: #666666;
+   font-weight: 400;
+   padding-left: 15px;
+}
+.thuc_card {
+}
+.btn_acp {
+   border: none;
+   width: 89%;
+   background: #4c5bd4;
+   height: 36px;
+   border-radius: 10px;
+   color: white;
+   font-weight: 700;
+   cursor: pointer;
+   margin: auto;
+}
+.btn_delete {
+   border: 1px solid #4c5bd4;
+   background: white;
+   color: #4c5bd4;
+   font-weight: 700;
+   width: 89%;
+   border-radius: 10px;
+   height: 36px;
+   margin: auto;
+   cursor: pointer;
+}
+.friend_btn {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.right_none {
+   padding-top: 20px;
+   display: none;
+}
+.right_btn {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+.right_btn3 {
+   width: 125px;
+   border-radius: 6px;
+   border: 1px solid #4c5bd4;
+   font-size: 14px;
+   font-weight: 700;
+   height: 36px;
+   background: #4c5bd4;
+   color: white;
+   margin-right: 10px;
+   display: inline-block;
+   text-align: center;
+   line-height: 36px;
+   cursor: pointer;
+}
+.right_btn1,
+.right_btn2,
+.right_btn4 {
+   width: 125px;
+   border-radius: 6px;
+   border: 1px solid #4c5bd4;
+   font-size: 14px;
+   font-weight: 700;
+   height: 36px;
+   background: white;
+   color: #4c5bd4;
+   margin-right: 10px;
+   display: inline-block;
+   text-align: center;
+   line-height: 36px;
+   cursor: pointer;
+}
+@media (max-width: 1200px) {
+   .left {
+      display: none;
+   }
+   .right_none {
+      display: flex;
+   }
+   .right {
+      width: 100%;
+   }
+   .search {
+      text-align: center;
+   }
+}
+@media (max-width: 769px) {
+   .all_card {
+      justify-content: space-around;
+   }
+}
+@media (max-width: 450px) {
+   .right_btn {
+      justify-content: space-around;
+   }
+}

@@ -1,0 +1,26 @@
+.uploadFile {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #999999;
+    display: none;
+}
+
+/* visible uploadFile */
+
+.visible {
+    display: block;
+}
+
+.uploadFileItem {
+    height: 130px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

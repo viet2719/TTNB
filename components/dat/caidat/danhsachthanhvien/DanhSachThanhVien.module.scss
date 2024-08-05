@@ -1,0 +1,50 @@
+.searchContainer {
+    padding: 19px 23px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background-color: #fff;
+}
+
+.searchInput {
+    width: 40%;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .searchContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .searchContainer {
+        width: 72%;
+    }
+}
+
+@media (max-width: 426px) {
+    .searchContainer {
+        width: 46%;
+    }
+}
+
+@media (max-width: 376px) {
+    .searchContainer {
+        width: 43%;
+    }
+}
+
+@media (max-width: 320px) {
+    .searchContainer {
+        width: 37%;
+    }
+}
+
+@media (max-width: 280px) {
+    .searchContainer {
+        width: 100%;
+    }
+}

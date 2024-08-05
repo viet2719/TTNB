@@ -1,0 +1,51 @@
+.ant-menu-submenu-title:active {
+  background-color: transparent !important;
+}
+
+.ant-select-item:hover {
+  background-color: var(--selectHover) !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #2e3994;
+}
+
+.ant-menu-item:hover,
+.ant-menu-submenu-inline:hover {
+  background-color: #2e3994;
+  border-radius: 0;
+  width: 100%;
+}
+
+/* ---------------------------------------------- */
+
+#BonusSettingTable {
+  .ant-table-thead>tr>th {
+    background-color: #EEEEEE !important;
+    color: #000 !important;
+  }
+}
+
+/* ---------------------------------- */
+.ant-card-body {
+  padding: 0 !important;
+}
+
+.ant-card-meta-title {
+  margin-bottom: 0px !important;
+  font-size: inherit !important;
+}
+
+.ant-card-meta-description {
+  padding-right: 20px !important;
+}
+
+#CustomizeCardDeleteData .ant-card-meta-description {
+  padding-right: 0 !important;
+}
+
+@media only screen and (max-width: 769px) {
+  .ant-tabs-top>.ant-tabs-nav::before {
+    right: 0;
+  }
+}

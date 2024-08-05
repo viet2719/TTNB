@@ -1,0 +1,659 @@
+/* menu user*/
+
+.user .userDropdown {
+    .ant-dropdown {
+        position: fixed;
+    }
+}
+
+.MenuUser.ant-dropdown-menu {
+    margin-top: 17px;
+    width: 300px;
+    position: fixed;
+    right: 10px;
+    top: 61px;
+    padding-bottom: 80px;
+}
+
+.MenuNewUser.ant-dropdown-menu {
+    margin-top: 17px;
+    width: 300px;
+    height: 100%;
+}
+
+.MenuUserHome.ant-menu {
+    border-radius: 10px;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 100px;
+    width: 24%;
+
+    .ant-menu-item {
+        padding: 0px 24px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: rgba($color: #000000, $alpha: .1) !important;
+        }
+
+        .ant-menu-title-content {
+            color: #000000;
+        }
+    }
+}
+
+.ant-popover .ant-popover-inner {
+    padding: 0;
+}
+
+.ant-menu-item:hover,
+.ant-menu-submenu-inline:hover {
+    width: 97%;
+    border-radius: 8px;
+}
+
+.menuOption.ant-menu {
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+
+    .ant-menu-item {
+        &:hover {
+            background-color: rgba($color: #000000, $alpha: .1) !important;
+            color: #000000 !important;
+        }
+    }
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width: 1440px) {
+    .settingContainer {
+
+        .ant-tabs-nav {
+            width: 1170px !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav .MenuSidebar {
+        .ant-menu {
+            width: 100px;
+
+            .ant-menu-item {
+                padding-left: 28px !important;
+
+                .ant-menu-title-content {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+    .SideBarSetting .flex-container {
+        .navbar {
+            width: 14%;
+        }
+    }
+
+    .SideBarSetting .MenuSidebar {
+        .ant-menu {
+            width: 100px;
+
+            .ant-menu-item {
+                padding-left: 28px !important;
+
+                .ant-menu-title-content {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+    .settingContainer {
+
+        .ant-tabs-nav {
+            width: 930px !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+
+        .navbar {
+            width: 17%;
+        }
+    }
+
+    .contentRight {
+        .ant-menu-item {
+            width: 212px !important;
+        }
+    }
+
+    .settingContainer {
+
+        .ant-tabs-nav {
+            width: 670px !important;
+        }
+    }
+
+    .tableStaff {
+        width: 73% !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .flex-container {
+        .navbar {
+            width: 0;
+        }
+
+        .nav {
+            display: none;
+        }
+    }
+
+    .contentRight {
+        .ant-menu-item {
+            width: 100% !important;
+            height: 45px !important;
+            padding: 10px 28% !important;
+        }
+    }
+
+    .SideBarSetting {
+        display: none;
+    }
+
+    .settingContainer {
+
+        .ant-tabs-nav {
+            width: 420px !important;
+        }
+    }
+
+    .tableStaff {
+        width: 45% !important;
+    }
+
+    .tableGroup {
+        width: 69% !important;
+    }
+}
+
+@media (max-width: 376px) {
+    .settingContainer {
+
+        .ant-tabs-nav {
+            width: 370px !important;
+        }
+    }
+
+    .tableStaff {
+        width: 39% !important;
+    }
+
+    .tableGroup {
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .tableStaff {
+        width: 32% !important;
+    }
+
+    .tableGroup {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 280px) {
+    .settingContainer {
+
+        .ant-tabs-nav {
+            width: 280px !important;
+        }
+
+        .ant-tabs-content-holder {
+            width: 280px !important;
+        }
+    }
+
+    .tableStaff {
+        width: 100% !important;
+    }
+}
+
+.ItemMenuSidebar.ant-menu {
+    border-radius: 8px;
+    color: #fff;
+
+    .ant-menu-item {
+        margin: 10px 4px;
+    }
+}
+
+.menuSortPopover.ant-menu {
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+
+    .ant-menu-item {
+        &:hover {
+            background-color: rgba($color: #000000, $alpha: .1) !important;
+            color: #000000 !important;
+            width: 92% !important;
+        }
+    }
+}
+
+
+
+
+
+/* --------------- Modal ------------------ */
+
+/* Modal Add Post */
+.modal__addPost .ant-modal-content,
+.modal__tag .ant-modal-content,
+.modal__Emotions .ant-modal-content {
+    padding: 0px;
+
+    a {
+        color: #000000;
+    }
+
+    Button {
+        transition: none;
+
+        &:hover {
+            border: transparent;
+            color: #ffffff !important;
+        }
+    }
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 20px 5px 20px;
+    }
+}
+
+/* Modal Tag */
+
+.modal__tag .ant-input-affix-wrapper {
+    &:hover {
+        border: 1px solid #ccc !important;
+    }
+}
+
+
+/* Modal Emotions */
+.modal__Emotions .ant-modal-body {
+
+    .ant-tabs-tab {
+        color: #999999;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 4px 8px;
+    }
+
+    .ant-tabs-tab-active {
+        .ant-tabs-tab-btn {
+            color: #4c5bd4;
+        }
+    }
+
+}
+
+.searchActivity .ant-input-affix-wrapper,
+.searchEmotion .ant-input-affix-wrapper {
+    &:hover {
+        border: 1px solid #ccc !important;
+    }
+}
+
+/* Modal search location */
+
+.modalSearchLocation .ant-modal-content {
+    padding: 0px;
+    width: 100%;
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 20px 5px 20px;
+    }
+}
+
+.SearchLocation .ant-input-affix-wrapper {
+    &:hover {
+        border: 1px solid #ccc !important;
+    }
+}
+
+
+/* Modal Regime */
+
+.modalRegime .ant-modal-content,
+.ModalFriendExcept .ant-modal-content,
+.ModalFriendSpecific .ant-modal-content {
+    padding: 0px;
+    width: 100%;
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 20px 5px 20px;
+    }
+}
+
+/* Modal Share*/
+
+.ModalShare .ant-modal-content {
+    padding: 0px;
+    width: 100%;
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 20px 5px 20px;
+    }
+}
+
+/* collection__btnCreate */
+
+.collection__btnCreate {
+    border: 1px solid #cccccc !important;
+
+    &:hover {
+        color: #ffffff !important;
+    }
+}
+
+/* ModalTurnOnNotify */
+
+.ModalTurnOnNotify .ant-modal-content {
+    padding: 0px;
+    width: 85%;
+
+    button {
+        color: #000000;
+        border: 1px solid #4c5bd4;
+        width: 135px;
+        border-radius: 25px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 20px 5px 20px;
+    }
+
+}
+
+/* TableEvent */
+
+.TableEvent .ant-table-thead>tr>th {
+    background-color: white;
+}
+
+.contentRight {
+
+    .ant-menu-item {
+        padding: 18px 25%;
+        display: flex;
+        align-items: center;
+        background: #4c5bd4;
+        color: #fff;
+        width: 330px;
+        height: 60px;
+        margin: 0;
+        border-radius: 0 !important;
+
+        &:hover {
+            background-color: #2e3994 !important;
+            color: #fff !important;
+        }
+    }
+
+}
+
+/* cai dat */
+
+.settingContainer {
+    .ant-tabs {
+        box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    }
+
+    .ant-tabs-nav {
+        margin: 0px;
+        width: 1250px;
+    }
+}
+
+/* Modal Setting */
+
+.modalDelete .ant-modal-content {
+    padding: 0px;
+
+    Button {
+        background-color: white;
+        font-weight: 600;
+    }
+}
+
+/* Modal logout */
+.modal-log-out .ant-modal-content {
+    padding: 0px;
+}
+
+/* tableStaff */
+
+.tableStaff {
+    width: 100%;
+
+    .ant-table-thead>tr>th {
+        background-color: #e4e4e4 !important;
+        font-weight: 500;
+    }
+
+    .ant-table-tbody {
+        background-color: #fff;
+    }
+
+    .ant-table-cell-row-hover {
+        background-color: white !important;
+    }
+
+}
+
+/* tableGroup */
+.tableGroup {
+    .ant-table-thead>tr {
+        background-color: #e4e4e4 !important;
+        font-weight: 500;
+    }
+
+    .ant-table-tbody {
+        background-color: #fff;
+    }
+
+    .ant-table-cell-row-hover {
+        background-color: white !important;
+    }
+}
+
+
+/* searchInputStaff */
+.searchInputStaff {
+    .ant-input {
+        background-color: white;
+    }
+}
+
+/* Modal delete */
+
+.modal-delete .ant-modal-content {
+    padding: 0px;
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+}
+
+.modalAddGroup {
+    .ant-select-selector {
+        background-color: #fff !important;
+    }
+
+    .ant-modal-content {
+        padding: 0px;
+
+        .ant-modal-header {
+            background-color: #4c5bd4;
+            width: 100%;
+            height: 50px;
+            margin: 0;
+
+            .ant-modal-title {
+                color: white;
+                display: flex;
+                align-items: center;
+                height: 100%;
+                margin: 0px 20px;
+                font-weight: 700;
+            }
+
+        }
+
+        .ant-modal-body {
+            padding: 0px 20px 5px 20px;
+        }
+
+        .ant-modal-close {
+            color: #ffffff;
+        }
+    }
+}
+
+.anhbaiviettrangcongty {
+    .ant-image {
+        width: 100%;
+    }
+}

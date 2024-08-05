@@ -1,0 +1,32 @@
+.MenuItemActive,
+.MenuItem {
+    color: #fff;
+    font-size: 16px !important;
+    font-weight: bold;
+    padding-left: 13px;
+}
+
+.MenuItemChildren {
+    padding: 0 27px;
+    height: 100%;
+    display: block;
+    border-left: 2px solid #fff;
+}
+
+.popover {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.ItemMenuSidebar {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.fixedMenu {
+    height: 100vh;
+    background: var(--colorTheme);
+    color: #fff;
+    position: fixed;
+    top: 78px;
+}

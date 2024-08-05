@@ -1,0 +1,169 @@
+.backWrapper {
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 17px;
+    width: 97%;
+    margin: 18px;
+}
+
+.contentTabContainer {
+    margin-top: 0px;
+    padding-bottom: 16px;
+}
+
+.contentTab2Container {
+    margin: 20px -20px;
+}
+
+.position {
+    display: flex;
+    width: 100%;
+}
+
+.btnGroup {
+    display: flex;
+}
+
+.btn {
+    font-size: 14px;
+    height: 36px;
+    max-width: 150px;
+    min-width: 120px;
+    width: calc(33% - 5px);
+    margin: 0 5px;
+
+}
+
+.search {
+    width: 348px;
+    height: 36px;
+}
+
+.modalRestoreContent,
+.modalDeleteContent {
+    padding: 20px 30px 13px 30px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.modalRestoreBtn,
+.modalDeleteBtn {
+    margin-top: 26px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.modalRestoreBtnCancel,
+.modalDeleteBtnCancel {
+    width: 135px;
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #4c5bd4 !important;
+    color: #4c5bd4;
+}
+
+.modalRestoreBtnCancel:hover {
+    color: #4c5bd4 !important;
+}
+
+.modalRestoreBtnOk,
+.modalDeleteBtnOk {
+    background: #4c5bd4;
+    color: #fff;
+    border: 1px solid #4c5bd4;
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    width: 135px;
+
+}
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 90px;
+    }
+
+    .btnGroup {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        min-width: 100px;
+        width: 33%;
+    }
+}
+
+@media (max-width: 768px) {
+    .position {
+        display: block;
+        width: 480px !important;
+    }
+
+    .search {
+        width: 100%;
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        margin: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .position {
+        display: block;
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        margin: 0;
+        width: 100%;
+        margin-top: 10px;
+        padding: 8px;
+    }
+
+    .position {
+        width: 280px !important;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .position {
+        width: 220px !important;
+    }
+
+}
+
+@media (max-width: 280px) {
+    .position {
+        width: 170px !important;
+    }
+
+}

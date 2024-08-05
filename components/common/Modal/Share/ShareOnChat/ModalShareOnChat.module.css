@@ -1,0 +1,77 @@
+.ShareOnChat__recent_title,
+.ShareOnChat__Group_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.ShareOnChat__recent,
+.ShareOnChat__Group {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.ShareOnChat__input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.ShareOnChat__search_input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc !important;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.ShareOnChat__recent__item,
+.ShareOnChat__Group__item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px dashed #666666;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+
+.recent__item_Info,
+.Group__item_Info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.recent__item_Info__name,
+.Group__item_Info__name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 250px;
+}
+
+.recent__item_Avatar,
+.Group__item_Avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.recent__item_Button,
+.Group__item_Button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    width: 100px;
+    border-radius: 25px !important;
+}

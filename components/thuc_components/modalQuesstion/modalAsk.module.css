@@ -1,0 +1,51 @@
+.modal_container {
+   padding: 20px;
+   display: flex;
+   gap: 15px;
+   flex-direction: column;
+}
+.modal_input {
+   width: 48%;
+   border: 1px solid #dcdcdc;
+   border-radius: 8px;
+   padding: 20px;
+}
+.modal_calender {
+   display: flex;
+   gap: 15px;
+   flex-wrap: wrap;
+}
+.modal_scroll {
+   height: 200px;
+   overflow: scroll;
+}
+.modal_scroll::-webkit-scrollbar {
+   display: none;
+}
+.scroll {
+   height: auto;
+}
+.textarea {
+   padding: 10px;
+   outline: none;
+   width: 100%;
+}
+.btn {
+   display: flex;
+   justify-content: space-between;
+}
+.content {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-bottom: 1px dotted;
+}
+.content_input {
+   display: flex;
+   gap: 15px;
+}
+.content_rule {
+   padding-top: 10px;
+}
+.p {
+   color: #666666;
+}

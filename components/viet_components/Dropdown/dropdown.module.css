@@ -1,0 +1,43 @@
+.item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.modal_content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #474747;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.modal_footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.modal_footer >button{
+    width: 150px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.huy{color: #4C5BD4;
+    font-weight: 700;
+    height: 36px;
+    border: 1px solid #4C5BD4;
+    border-radius: 50px;
+    margin-right: 15px;
+    width: 165px;
+    background: rgb(210, 210, 210);}
+    .xacnhan{
+        color: white;
+    font-weight: 700;
+    height: 36px;
+    border: none;
+    background: #4C5BD4;
+    border-radius: 50px;
+    width: 165px;
+    }

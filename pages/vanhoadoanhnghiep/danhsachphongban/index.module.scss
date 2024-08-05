@@ -1,0 +1,115 @@
+.DSPBContentLeftContainer {
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.DSPBContentLeftContainerHeader {
+    padding: 23px 3.5%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+.DSPBContentLeftContainerBodyHeaderInfo {
+    gap: 10px;
+}
+
+.DSPBContentLeftContainerBodyHeaderInfoImg {
+    border-radius: 50%;
+}
+
+.DSPBContentLeft3cham {
+    cursor: pointer;
+    padding: 8px 8px 0px 8px;
+    user-select: none;
+}
+
+.contentPopover {
+    padding: 10px 16px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    cursor: pointer;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+
+    &:hover {
+        background: #f5f5f5;
+    }
+}
+
+.DSPBContentLeftContainerBody {
+    padding: 15px 3.5% 40px;
+}
+
+.DSPBContentLeftContainerBodyHeader {
+    border-bottom: 1px solid #666;
+    padding: 15px 15px;
+    align-items: center;
+}
+
+.DSPBContentLeftContainerBodyContentItem {
+    border-bottom: 1px solid #666;
+    padding: 15px 15px;
+}
+
+.DSPBContentLeftContainerBodyContentItemTitle {
+    padding: 15px 0 15px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.DSPBContentLeftContainerBodyContentItemContent {
+    gap: 12px;
+}
+
+.DSPBRightContainer,
+.DSPBRightContainerList {
+    background: #fff;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+.DSPBRightContainerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color: #474747;
+    padding: 16px 26px;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+}
+
+.DSPBRightContainerBody {
+    padding: 10px 3.5% 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.DSPBRightContainerBodyItem {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.DSPBRightContainerBodyItemTitle {
+    padding: 15px 3.5%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0;
+}
+
+.ContentItemContentImg {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

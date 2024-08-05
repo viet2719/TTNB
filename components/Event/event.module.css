@@ -1,0 +1,89 @@
+.sukiennoibo__content__header,
+.sukiendoingoai__content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.sukiennoibo__content__header__left,
+.sukiendoingoai__content__header__left {
+    padding: 13px 74px 13px 18px;
+    background: #4c5bd4;
+    display: flex;
+    align-items: center;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sukiennoibo__content__header__left__text,
+.sukiendoingoai__content__header__left__text {
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.sukiennoibo__content__header__right,
+.sukiendoingoai__content__header__right {
+    flex: 1;
+    height: 46px;
+    padding-left: 80px;
+}
+
+.sukiennoibo__search__input,
+.sukiendoingoai__search__input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 50px;
+    border: 0;
+}
+
+.sukiennoibo__search__input:hover,
+.sukiendoingoai__search__input:hover {
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 50px;
+}
+
+.sukiennoibo__sapdienra,
+.sukiennoibo__ketthuc,
+.sukiendoingoai__sapdienra,
+.sukiendoingoai__ketthuc {
+    background: #fff;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 0 6px 6px 6px;
+    margin-bottom: 24px;
+}
+
+.sukiennoibo__sapdienra__TotalEventTitle,
+.sukiennoibo__ketthuc__TotalEventTitle,
+.sukiendoingoai__sapdienra__TotalEventTitle,
+.sukiendoingoai__ketthuc__TotalEventTitle {
+    padding: 16px 17px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #474747;
+    border-bottom: 1px solid #666;
+}
+
+@media (max-width: 1024px) {
+
+    .sukiennoibo__content__header__right,
+    .sukiendoingoai__content__header__right {
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sukiennoibo__content__header__left,
+    .sukiendoingoai__content__header__left {
+        padding: 10px 10px;
+    }
+}

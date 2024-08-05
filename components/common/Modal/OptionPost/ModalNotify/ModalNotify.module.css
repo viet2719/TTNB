@@ -1,0 +1,38 @@
+.ModalNotify__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ModalNotify__content__title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.ModalNotify__content__subTitle {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.ModalNotify__container_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 4px;
+}
+
+.ModalNotify__container_btn__cancel {
+    color: #4c5bd4 !important;
+
+}
+
+.ModalNotify__container_btn__turnOn {
+    color: white !important;
+    background-color: #4c5bd4;
+}

@@ -1,0 +1,134 @@
+.modal_top_post {
+    display: flex;
+    gap: 20px;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.text_modal_top {
+    margin: 0 0 20px 0;
+
+    .text1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .text2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.textarea {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    padding: 10px 0;
+    border: none;
+    font-size: 16px;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.view_img_item1 {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view_img_item2 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select_fr {
+    margin: 20px 0;
+
+}
+
+.label {
+    cursor: pointer;
+
+    img {
+        margin-left: 100%;
+    }
+}
+
+.add_option_new_feed {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 15px;
+
+    .option {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.file_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weight {
+    display: flex;
+    gap: 20px;
+}
+
+.files {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 15px 10px 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    button{
+        width: 200px;
+        height: 39px;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .huy{
+        color: #4c5bd4;
+        border: 1px solid #4c5bd4;
+    }
+    .dang{
+        color: #fff;
+        background-color: #4c5bd4;
+    }
+}
+.show_files{
+    width: 100%;
+    height: auto;
+    .show{
+        overflow-y: scroll;
+        width:100%;
+        height: 100%;
+    }
+}

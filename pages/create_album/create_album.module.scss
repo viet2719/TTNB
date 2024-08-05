@@ -1,0 +1,151 @@
+.album {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_left {
+    width: 21%;
+    background-color: #fff;
+    height: calc(100vh - 78px);
+    padding: 20px;
+
+    .text_create_album {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        background: #ffffff;
+        padding: 20px 0;
+        color: #474747;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .text_name_album {
+        padding: 20px 0;
+
+        input {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+            padding: 5px;
+            font-size: 17px;
+        }
+
+    }
+
+}
+
+.text_name_album>input:focus {
+    outline: none;
+}
+
+.upload {
+    input {
+        display: none;
+    }
+
+    .upload_image {
+        background: #D6D9F5;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4C5BD4;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.create {
+    border: none;
+    background: #4C5BD4;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    overflow-y: scroll;
+    width: 79%;
+
+    .item {
+        background-color: #fff;
+        height: 300px;
+
+        img {
+            object-fit: cover;
+        }
+
+        .name_image {
+            padding: 5px;
+            width: 100%;
+        }
+    }
+
+}
+
+.item .name_image>textarea {
+    border-radius: 5px;
+    width: 100%;
+    color: #292929;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.item .name_image>textarea:focus {
+    outline: #ccc;
+}
+
+.right::-webkit-scrollbar {
+    display: none;
+}
+
+.del {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    padding: 0 5px 5px 0;
+}
+
+@media screen and (max-width:1050px) {
+    .album {
+        display: block;
+    }
+
+    .nav_left {
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width:590px) {
+    .right{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .right {
+
+        margin: 20px 0 0 0;
+    }
+}

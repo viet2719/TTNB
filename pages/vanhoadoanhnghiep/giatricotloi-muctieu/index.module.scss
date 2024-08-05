@@ -1,0 +1,242 @@
+.container {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 3.5%;
+    border-bottom: 1px solid #666;
+}
+
+.title__text {
+    font-weight: 700;
+    color: #474747;
+}
+
+
+.title__add {
+    color: #4c5bd4;
+    cursor: pointer;
+    gap: 4px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.content {
+    padding: 15px 3.5%;
+}
+
+.contentHeader {
+    font-weight: 500;
+    color: #4c5bd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.contentBody {
+    margin-bottom: 15px;
+}
+
+.contentBodyText {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.post__count_reaction {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.post__reaction__count_like {
+    display: flex;
+}
+
+.post__reaction__count_like__text {
+    margin-left: 6px;
+}
+
+.post__reaction__count_comment {
+    margin-right: 6px;
+}
+
+.sum__comment {
+    display: flex;
+    align-items: center;
+}
+
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
+.post__footer__middle,
+.post__footer__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.post__footer__middle__text,
+.post__footer__right__text {
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.divider {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: #CCCCCC;
+
+}
+
+.post__comment_sort {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.post__comment_sort_icon {
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.comment__avatar_user_img {
+    border-radius: 50%;
+}
+
+.comment {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 9px;
+    margin-right: 16px;
+}
+
+.comment__content {
+    width: 100%;
+}
+
+.comment__content_info {
+    margin-left: 15px;
+    padding: 10px 15px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 100%;
+    line-height: 20px;
+}
+
+.comment__name {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.comment__text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.comment__content_reaction {
+    display: flex;
+    margin-left: 16px;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contentRight {
+    background: #fff;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    margin-bottom: 21px;
+    margin-top: 30px;
+}
+
+.titleRight__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color: #474747;
+    padding: 16px 26px;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+}
+
+.bodyRight {
+    padding: 0 5% 16px;
+    border-bottom: 1px solid rgba(71, 71, 71, .25);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bodyRight__text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* popOver content */
+.contentPopover {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentPopover__title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #fff;
+}
+
+.listUser__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+//dropdown
+.menuOption {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.menuOption__item {
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #474747;
+    gap: 10px;
+}

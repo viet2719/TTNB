@@ -1,0 +1,49 @@
+.uploadFile {
+   width: 100%;
+   height: 200px;
+   border-radius: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #999999;
+   display: none;
+}
+
+/* visible uploadFile */
+
+.visible {
+   display: block;
+}
+
+.uploadFileItem {
+   height: 180px;
+   margin: 10px;
+   cursor: pointer;
+
+   border-radius: 8px;
+   display: flex;
+
+   padding: 10px;
+   flex-direction: column;
+   gap: 20px;
+}
+.uploadFileItemTitle {
+   font-size: 16px;
+}
+.img {
+   background: #a8a8a8;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+.uploadFileItemIcon {
+   display: flex;
+   gap: 15px;
+}
+.opinion {
+   overflow-y: scroll;
+}
+.space_item {
+   display: flex;
+   gap: 17px;
+}

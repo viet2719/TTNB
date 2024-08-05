@@ -1,0 +1,71 @@
+.modal-delete-event-table .ant-modal-content {
+    padding: 0px;
+    width: 100%;
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 70px;
+        text-align: center;
+    }
+
+    .ant-modal-body span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.view-detail-event .ant-modal-content {
+    padding: 0px;
+    width: 100%;
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-header {
+        background-color: #4c5bd4;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+
+        .ant-modal-title {
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0px 20px;
+        }
+
+    }
+
+    .ant-modal-body {
+        padding: 15px 20px 5px 20px;
+    }
+}
+
+.form-view-detail-event {
+    .ant-form-item-label {
+        font-weight: 500;
+    }
+}

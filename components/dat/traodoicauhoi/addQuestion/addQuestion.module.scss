@@ -1,0 +1,85 @@
+.posts {
+    margin-top: 15px;
+}
+
+.addQuestion {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.addQuestion__header {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.addQuestion__header__left {
+    cursor: pointer;
+}
+
+.addQuestion__header__right {
+    margin-left: 10px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 22px;
+    background-color: #f2f2f2;
+}
+
+.divider {
+    height: 1px;
+    background-color: #a1a1a1;
+    margin: 16px 0;
+}
+
+.input {
+    border-radius: 22px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.addQuestion__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addQuestion__body_item {
+    color: #666666;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.addQuestion__body_title {
+    margin-left: 8px;
+}
+
+.addQuestion__button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 42px !important;
+    background: #4c5bd4;
+    text-align: center;
+    border-radius: 50px !important;
+    font-weight: 700;
+    line-height: 19px;
+    color: #fff;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .addQuestion__body {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .addQuestion__body_item {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,332 @@
+.daluu_container {
+    display: flex;
+}
+
+.daluu_sidebar_container {
+    width: 360px;
+    box-shadow: 1px 1px 4px 0px #00000026;
+    background: white;
+
+}
+
+.daluu_sidebar {
+    position: fixed;
+    width: 360px;
+    height: 100vh;
+    padding: 15px 20px;
+    border-top: 1px solid #CCCCCC;
+    overflow-y: auto;
+}
+
+.daluu_sidebar_saved_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.daluu_sidebar_collection {
+    padding-bottom: 100px;
+}
+
+.daluu_sidebar_saved_header_title,
+.daluu_sidebar_collection_title {
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+}
+
+.daluu_sidebar_saved_header_setting {
+    color: #4C5BD4;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.daluu_sidebar_saved_content {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    padding: 11px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #DDDDDD;
+}
+
+.daluu_sidebar_saved_content:hover {
+    background: #DDDDDD;
+}
+
+.daluu_sidebar_saved_content_title {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(76, 91, 212);
+}
+
+/* collection  */
+
+.ModalSave__container__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 4px;
+    cursor: pointer;
+}
+
+.ModalSave__container__item:hover {
+    background: #DDDDDD;
+    border-radius: 10px;
+}
+
+.ModalSave__container__item__content {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.ModalSave__container__item__img {
+    border-radius: 10px;
+}
+
+.ModalSave__container__item__name {
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.ModalSave__container__addNew_collection {
+    display: flex;
+    align-items: center;
+    padding: 10px 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ModalSave__container__addNew_collection_input {
+    width: 100%;
+}
+
+.addNew_collection_title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    user-select: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.addNew_collection__input {
+    border: 1px solid #C4C4C4 !important;
+}
+
+.ModalSave__container__addNew_collection__icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 16px;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalSave__container__addNew_collection__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    user-select: none;
+}
+
+.addNew_collection__btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.addNew_collection__btnCancel {
+    width: 130px;
+    color: #4C5BD4 !important;
+    border: 1px solid #4C5BD4 !important;
+    font-weight: bold;
+    border-radius: 20px !important;
+}
+
+.addNew_collection__btnCreate {
+    width: 130px;
+    color: white;
+    background-color: #cccccc;
+    border-radius: 20px !important;
+    font-weight: bold;
+}
+
+.daluu_main {
+    padding: 20px;
+    flex: 1;
+}
+
+.daluu_main_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.daluu_main_header_btn {
+    width: 130px;
+    height: 36px;
+    background: #4C5BD4;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* popover */
+.popover_daluu_main_header_btn {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0px #00000026;
+}
+
+.popover_daluu_main_header_btn_item {
+    display: flex;
+    gap: 25px;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
+.popover_daluu_main_header_btn_item:hover {
+    background-color: #DDDDDD;
+    border-radius: 5px;
+}
+
+.popover_daluu_main_header_btn_item_title {
+    color: #000000;
+    font-size: 16px;
+}
+
+/* item da luu */
+.daluu_main_content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.daluuListItem {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.headerLeft__name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    user-select: none;
+}
+
+.daluuItem {
+    flex-basis: calc(50% - 20px);
+    box-shadow: 0px 2px 8px 0px #00000026;
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.headerLeft__avatar {
+    border-radius: 50%;
+}
+
+.content {
+    margin-top: 20px;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.footer {
+    margin-top: 30px;
+    color: #474747;
+    font-weight: 400;
+}
+
+.footer__collection {
+    color: #4C5BD4;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .daluuItem {
+        flex-basis: calc(100% - 20px);
+    }
+
+    .daluu_sidebar_container,
+    .daluu_sidebar {
+        width: 290px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .daluu_sidebar_container,
+    .daluu_sidebar {
+        width: 133px;
+    }
+
+    .daluu_sidebar_saved_header_title,
+    .daluu_sidebar_saved_header_setting,
+    .daluu_sidebar_saved_content_title,
+    .daluu_sidebar_collection_title,
+    .ModalSave__container__item__name,
+    .ModalSave__container__addNew_collection__text {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .daluu_sidebar_container,
+    .daluu_sidebar {
+        padding: 0px;
+        width: 90px;
+    }
+
+    .daluu_sidebar_saved_content {
+        justify-content: center;
+    }
+
+    .addNew_collection__btn {
+        display: block;
+    }
+
+    .addNew_collection__btnCancel,
+    .addNew_collection__btnCreate {
+        width: 60px !important;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .daluu_sidebar_container,
+    .daluu_sidebar {
+        display: none;
+    }
+
+    .daluuListItem {
+        width: 108%;
+    }
+}

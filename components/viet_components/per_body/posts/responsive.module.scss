@@ -1,0 +1,19 @@
+.post{
+    display: flex;
+}
+.post_post{
+    padding: 25px 0 0 25px;
+    width: 703px;
+}
+
+@media screen and (max-width:1200px) {
+    .post{
+        display: flex;
+        flex-direction: column;
+    }
+    .post_post{
+        padding: 45px 10px 0 0px;
+        width: 100%;
+    }
+
+}

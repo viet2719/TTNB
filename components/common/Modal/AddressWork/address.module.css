@@ -1,0 +1,157 @@
+.opmodal {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* color: #4c5bd4; */
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+.company{
+    margin-bottom: 15px;
+}
+.company input{
+    border: 1px solid #CCCCCC;
+    height: 37px;
+    border-radius: 3px;
+    padding-left: 12px;
+    width: 100%;
+    color: #333;
+    font-family: Roboto, sans-serif!important;
+    font-size: 16px;
+    line-height: 24px;
+}
+.company input:focus{
+    outline: none;
+}
+.title{
+    color: black;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.add input{
+    border: 1px solid #CCCCCC;
+    height: 37px;
+    border-radius: 3px;
+    padding-left: 12px;
+    width: 100%;
+    color: #333;
+    font-family: Roboto, sans-serif!important;
+    font-size: 16px;
+    line-height: 24px;
+}
+.add input:focus{
+    outline: none;
+}
+.red_dot{
+    color: red;
+}
+.btn__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+.btn{
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+}
+.huy{
+    border: 1px solid #4c5bd4;
+    background: white;
+    color: #4c5bd4;
+}
+.ok{
+    background: #4c5bd4;
+    color: white;
+
+}
+.serfdom {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    margin: 10px 0;
+    gap: 10px;
+
+    font-weight: 500;
+}
+.overview{
+    width: 812px;
+    /* height: 66px; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+.overview .company_cty {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.overview .company_cty .noilamviec {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.divcty{
+    width: 55%;
+}
+
+.cty{
+    padding: 5px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+.company_name{
+    color: #333;
+    font-size: 16px;
+}
+.chedo{
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.dot{
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.item > img {
+    cursor: pointer;
+}
+.mota{
+    color: #666666;
+    font-size: 14px;
+    padding-left: 5px;
+}
+@media screen and (max-width:1200px) {
+    .overview{
+        width: 100%;
+        margin: 0px;
+    }
+    
+}

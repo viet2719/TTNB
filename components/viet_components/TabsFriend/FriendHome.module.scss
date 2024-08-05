@@ -1,0 +1,112 @@
+.nav_friend{
+    display: flex;
+    gap: 20px;
+    padding: 20px 25px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    .nav_friend_fr{
+        color: #474747;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        width: 50%;
+        display: flex;align-items: center;
+        
+    }
+    .filter_friend{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: flex-end;
+        width: calc(100% - 40px);
+        .input_search{
+            display: flex;
+            align-items: center; 
+            // width: 40%;
+            input:focus{
+                outline: none;
+            }
+            .input{
+                height: 40px;
+                border: none;border: 1px solid #CCCCCC;
+                height: 40px;
+                width: 100%;
+                border-radius: 50px;
+                padding-left: 20px;
+                background: #F7F8FC;
+                font-size: 16px;
+                font-weight: 700;
+                color: #999999;
+              
+            }
+            .input_search__image{
+                position: relative;
+                inset: 0px 20px 0px -40px;
+                cursor: pointer;
+            }
+        }
+
+        
+        .looking_add{
+            display: flex;
+            gap: 20px;
+            .friend_request{
+                color: #4c5bd4;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .looking_for_friend{
+                color: #4c5bd4;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            
+        }
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .nav_friend{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+        .filter_friend{
+            display: flex;
+            // flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            // text-align: left;
+           .input_search{
+            display: block;
+            justify-content: flex-start;
+           }
+           .looking_add{
+            display: flex;
+            justify-content: flex-start;
+           }
+        }
+        .input_search{
+            width: 40%;
+        }
+    }
+   
+}
+@media  (max-width:582px) {
+    .nav_friend_fr{
+        display: none;
+    }
+}
+@media screen and (max-width:475px) {
+    .nav_friend{
+        .filter_friend{
+            display: flex;
+          flex-direction: column;
+           justify-content: flex-start;
+        }
+        .input_search{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,249 @@
+.watchstory24h {
+    display: flex;
+    background-color: #474747;
+    height: auto;
+    width: 100%;
+    
+}
+.story_content{
+    position: relative;}
+.exit{
+    position: absolute;
+    top:15px;
+    z-index: 1;
+    right: 12px;  
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.see {
+    margin-left: 350px;
+    width: 100%;
+}
+
+.siderbar {
+    position: fixed;
+    width: 350px;
+}
+
+.siderBar_story {
+
+    background-color: #fff;
+    padding: 20px;
+    max-height: 90vh;
+    
+
+    .siderbar_story_header {
+        display: flex;
+        justify-content: space-between;
+
+        .siderbar_story_header_right {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+
+.khotin {
+    cursor: pointer;
+}
+
+.siderbar_story_content {
+    h4 {
+
+        padding: 20px 0;
+    }
+
+    .info {
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+
+        h4 {
+
+            padding: 0;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+        }
+    }
+}
+
+.content {
+    overflow-y: scroll;
+    height: 56vh;
+
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.list_story {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+
+    .quanty_time {
+        display: flex;
+        gap: 10px
+    }
+}
+
+.imgAvt {
+    border-radius: 50%;
+    border: 4px solid #4c5bd4;
+    cursor: pointer;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.name {
+    cursor: pointer;
+}
+
+/// STORY
+.story_content {
+    width: 100%;
+    height: calc(100vh - 78px);
+    color: #fff;
+    display: flex;
+    position: relative;
+    padding-top: 15px;
+    // margin-left: 75%;
+    justify-content: center;
+    // margin-left: 100%;
+    .story_footer {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 350px;
+        overflow-y: scroll;
+    }
+}
+.story_footer::-webkit-scrollbar{
+    display: none;
+}
+.img_story{
+    img{
+        border-radius: 10px;
+    }
+}
+// NAV STORY
+.nav_story2{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding:  0 10px;
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+    align-items: center;
+}
+.fr{
+    display: flex;
+    gap: 10px;
+    
+    .infomation{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.nextstory{
+    position: absolute;
+    z-index: 1;
+    top:40%;
+    left:65%;
+    cursor: pointer;
+}
+.btn_custom{
+    display: flex;
+    gap: 5px;
+}
+.content_modal{
+    
+    align-items: center;
+    text-align: center;
+    .btn_modal{
+        display: flex;
+        gap: 20px;
+        margin: 20px;
+        justify-content: center;
+        button{
+            width: 150px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .huy{
+            color: #4c5bd4;
+            border: 1px solid #4c5bd4;
+        }
+        .ok{
+            color: #fff;
+            background: #4c5bd4;
+            border: none;
+        }
+    }
+}
+.footer_story{
+    display: flex;
+    margin-top: 10px;
+    width: 350px;
+}
+.felling{
+    display: flex;
+    gap: 15px;
+    width: 300px;
+    img{
+        cursor: pointer;
+    }
+}
+.space{
+    width: 83px;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+ 
+  @media screen and (max-width:768px) {
+    .siderBar_story{
+        display: none;
+    }
+    .see {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width:320px) {
+    .img_story{
+        
+        img{
+            width: 320px !important;
+            margin: 0;
+        }
+    }
+    .nav_story2{
+        width: 320px;
+    }
+    .footer_story{
+        width: 320px;
+    }
+    .felling{
+        width: 350px;
+    }
+}

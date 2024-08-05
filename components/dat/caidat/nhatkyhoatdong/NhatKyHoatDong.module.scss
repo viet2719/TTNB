@@ -1,0 +1,50 @@
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* mobile */
+@media (max-width: 739px) {
+    .listItem {
+        padding: 0 !important;
+    }
+
+    .listItemMeta {
+        margin-left: -8px !important;
+    }
+
+    .listItemMetaDescription {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .listItemTimeDelete {
+        margin-right: 10% !important;
+        padding-left: 8% !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .activity {
+        width: 70%;
+    }
+}
+
+@media (max-width: 376px) {
+    .activity {
+        width: 64%;
+    }
+}
+
+@media (max-width: 320px) {
+    .activity {
+        width: 53%;
+    }
+}
+
+@media (max-width: 280px) {
+    .activity {
+        width: 100%;
+    }
+}

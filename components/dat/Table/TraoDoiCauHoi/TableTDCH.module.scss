@@ -1,0 +1,21 @@
+.TDCHcontentRight {
+    position: fixed;
+    width: 400px;
+    z-index: 1;
+}
+
+.TDCHcontentRightTable {
+    background-color: #fff;
+    border-radius: 5px !important;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+}
+
+.TDCHcontentRightTableTitle {
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+    padding: 14px 0 16px 22px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}

@@ -1,0 +1,65 @@
+.title{
+    padding: 20px;
+    background-color: white;
+    border: 5px 5px 0 0;
+}
+.myimage{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(215px,1fr));
+    gap: 18px;
+    justify-content: space-between;
+    padding-left: 8px;
+    .myimage_img{
+        display: flex;
+        .myimage_img_edit{
+            position: relative;
+            inset :5px 0px 0px -35px
+        }
+    }
+}
+.pen{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.album{
+    padding: 10px;
+.album_add{
+    display: flex;
+    gap: 10px;
+    .album_new
+    {
+        display: grid;
+        grid-template-columns: repeat(4,minmax(218px,1fr));
+        justify-content: space-between;
+    }
+    .album_new_img{
+        display: flex;
+        .album_img_edit{
+            position: relative;
+            inset: 5px 0 0 -35px;
+        }
+    }
+  
+}
+}
+.album_add__new{
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    height: 215px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #F7F8FC;
+}
+.data{
+    background-color:#e5e5e5 ;
+    width: 215px;
+    margin-bottom: 20px;
+}
+.vdeo{
+    background-color:white ;
+}

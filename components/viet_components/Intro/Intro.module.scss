@@ -1,0 +1,89 @@
+.overview{
+    width: 812px;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 6px;
+    .title{
+        font-size: 16px;
+        line-height: 24px;
+        color: #474747;
+        font-weight: 700;
+    }
+    .item{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        padding: 10px 0;
+        .subitem1{
+            width: 60%;
+            font-size: 16px;
+            line-height: 24px;
+            color: #666666;
+            font-weight: 400;
+            .subsub{
+                color: #333;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .subitem2{
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .subitem3{
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+.overview{
+    .add_family{
+        display: flex;
+        gap:10px;
+        color: #4C5BD4;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+    }
+    .family{
+        display: flex;
+        .img{
+            border-radius: 50%;
+           
+        }
+        .info{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+        }
+        .congkhai{
+            width: 40%;
+        }
+        // .dot{
+        //     // width: 20%;
+        // }
+    }
+}
+@media screen and (max-width:1200px) {
+    .overview{
+        width: 100%;
+        margin: 0;
+    }
+    .main{
+        display: none;
+    }
+    .respon{
+        display: block;
+        width: 100%;
+    }
+}

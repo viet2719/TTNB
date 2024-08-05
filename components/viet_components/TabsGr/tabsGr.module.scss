@@ -1,0 +1,53 @@
+.grid_gr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px;
+    gap: 10px;
+    .grPri{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid #eeeeee;
+        padding: 11px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        .grPri_img{
+            border-radius: 50%;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            width: 239px;
+            .grPri_name{
+                word-break: break-word;
+                color: #474747;
+                font-weight: 500;
+            }
+        }
+    }
+}
+.dot_child{
+    display: flex;
+    align-items: center;
+    gap :10px;
+    color: #474747;
+    font-weight: 500;
+}
+.dot{
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width:1200px) {
+    .grid_gr{
+        display: flex;flex-wrap: wrap;
+    }
+    .grPri{
+        width: 100%;
+    }
+    .dot{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}

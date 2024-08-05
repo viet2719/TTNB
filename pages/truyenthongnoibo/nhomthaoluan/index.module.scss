@@ -1,0 +1,148 @@
+.thutuceoContainer {
+    // box-shadow: 0 1.72314px 4.30784px 2.58471px rgba(0, 0, 0, .1);
+    // background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+.undefined_search{
+    margin: 20px 0;
+}
+
+.thutuceoContainerTitle {
+    font-weight: 700;
+    color: #474747;
+    padding: 22px 3.5%;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+}
+
+.thutuceoContainerContent {
+    padding: 15px 3.5%;
+}
+
+.thutuceoContainerContentFormButton {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 19px 0 39px;
+}
+
+.thutuceoContainerContentFormTitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+
+.thutuceoContainerContentRightContentItemUser {
+    font-size: 14px;
+    max-width: 200px;
+ 
+}
+
+.thutuceoContainerContentFormButtonSubmit {
+    border-radius: 50px !important;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    height: 36px;
+    width: 303px;
+    background: #4c5bd4;
+    color: #fff;
+    border: 1px solid #4c5bd4;
+}
+
+.thutuceoContainerContentRight {
+    background: #fff;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    margin-top: 21px;
+}
+
+.thutuceoContainerContentRightHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color: #474747;
+    padding: 16px 26px;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+}
+
+.thutuceoContainerContentRightContent {
+    padding: 10px 3.5% 16px;
+}
+
+.thutuceoContainerContentRightContentItem {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(71, 71, 71, .75);
+    .list_gr{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+}
+
+.thutuceoContainerContentRightContentItemTitle {
+    cursor: pointer;
+    font-weight: 500;
+    color: #4c5bd4;
+    padding: 7px 0;
+}
+
+.thutuceoContainerContentRightContentItemUser {
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.thutuceoContainerContentRightContentItemTime {
+    color: rgba(71, 71, 71, .75);
+}
+.list_item{
+    color: #4c5bd4;
+    font-weight: 500;
+}
+.thanhvien{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.member{
+    position: relative;
+    cursor: pointer;
+    img{
+        border-radius: 50%;
+    }
+   
+}
+
+.chitiet{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 10px;
+   
+}
+.chitetmem{
+    display: flex;
+  flex-direction: row;
+}
+.phanh{
+    display: flex;
+    flex-direction: column;
+}
+ 
+@media (max-width: 320px) {
+    .thutuceoContainerContentFormButtonSubmit {
+        max-width: 200px;
+    }
+}
